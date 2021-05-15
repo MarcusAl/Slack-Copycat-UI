@@ -4,7 +4,7 @@
 ![Last Commit](https://img.shields.io/github/last-commit/marcusal/slack-copycat-ui/main?style=for-the-badge)
 
 # Slack Copycat UI
-In this project, I have created a simple clone of the Slack UI for desktop for fictional company La Contra. This UI will be used as a base for future more advanced Slack clones 
+In this project, I have created a simple clone of the Slack UI for desktop for fictional company La Contra. This UI will be used as a base for future more advanced Slack clones. I used a components based system, and some implementation of Bootstrap for the general design.
 
 # Live Version
 
