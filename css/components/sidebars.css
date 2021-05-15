@@ -1,0 +1,46 @@
+.sidebar-section {
+  background-color: #4B3949;
+  width: 15vw;
+}
+
+.channels,
+.direct-messages {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.channels > h3 {
+  color: white;
+}
+
+.channels > p,
+.direct-messages > p {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.channels > li > span > i {
+  font-size: 20px;
+  color: #A69DA5;
+}
+
+.icon-grey {
+  font-size: 10px;
+  color: #A69DA5;
+}
+
+.text-purple {
+  color: #A69DA5;
+  font-size: 20px;
+}
+
+.light-green {
+  color: #1EE5BD;
+  font-size: 10px;
+}
+
+.text-purple:hover {
+  text-decoration: none;
+  color: white;
+}

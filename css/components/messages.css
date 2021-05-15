@@ -1,0 +1,38 @@
+.message-interface {
+  height: 89vh;
+  width: 70vw;
+  margin-left: 20px;
+}
+
+.messages-container > b {
+  font-size: 28px;
+}
+
+.message-card {
+  display: flex;
+  align-items: center;
+}
+
+.card-avatar {
+  margin-right: 15px;
+}
+
+.card-avatar > img {
+  border-radius: 10%;
+  height: 3rem;
+  width: 3rem;
+  transition: 600ms;
+}
+
+.card-avatar > img:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+.card-text {
+  font-family: 'Open sans', sans-serif;
+  font-size: 20px;
+}

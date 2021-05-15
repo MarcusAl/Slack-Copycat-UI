@@ -1,0 +1,10 @@
+.chatbox {
+  position: absolute;
+  bottom: 0;
+  width: 70%;
+}
+
+#chatbox-input {
+  padding: 1.5rem;
+  font-size: 20px;
+}

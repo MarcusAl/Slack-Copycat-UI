@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Slack prototype</title>
+    <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- TODO: Slack copycat markup -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="badge-section">
+          <ul class="p-4">
+            <li class="mb-3">
+              <a href="https://www.slack.com" class="btn-badge btn-badge-active px-2 py-1">CO</a>
+            </li>
+            <li>
+              <a href="https://www.slack.com" class="btn-badge px-2 py-1">SL</a>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="sidebar-section">
+            <ul class="channels mt-4">
+              <h3>Le Contra</h3>
+              <p>Channels</p>
+              <li>
+                <span><i class="fab fa-slack-hash mr-2"></i></span> <a href="https://www.slack.com" class="text-purple">general</a>
+              </li>
+              <li>
+                <span><i class="fab fa-slack-hash mr-2"></i></span> <a href="https://www.slack.com" class="text-purple">help</a>
+              </li>
+              <li>
+                <span><i class="fab fa-slack-hash mr-2"></i></span> <a href="https://www.slack.com" class="text-purple">design</a>
+              </li>
+              <li>
+                <span><i class="fas fa-lock mr-2"></i></span> <a href="https://www.slack.com" class="text-purple">friday-drinks</a>
+              </li>
+              <li>
+                <span><i class="fas fa-lock mr-2"></i></span> <a href="https://www.slack.com" class="text-purple">climbing</a>
+              </li>
+            </ul>
+  
+            <ul class="direct-messages">
+              <p>Direct Messages</p>
+              <li>
+                <span><i class="fas fa-circle mr-2 light-green"></i></span><a href="https://www.slack.com" class="text-purple">Matz</a>
+              </li>
+              <li>
+                <span><i class="fas fa-circle mr-2 light-green"></i></span><a href="https://www.slack.com" class="text-purple">ATuring</a>
+              </li>
+              <li>
+                <span><i class="fas fa-circle mr-2 icon-grey"></i></span><a href="https://www.slack.com" class="text-purple">SteveWozniak</a>
+              </li>
+              <li>
+                <span><i class="fas fa-circle mr-2 icon-grey"></i></span><a href="https://www.slack.com" class="text-purple">Zuckerberg</a>
+              </li>
+            </ul>
+        </div>
+  
+        <div class="message-interface g-white border-bottom shadow-sm mt-3">
+          <div class="messages-container">
+            <b># design</b>
+            <hr>
+            <!-- Message 1 -->
+              <div class="message-card mt-3">
+                <div class="card-avatar" aria-role="user avatar">
+                  <img src="https://kitt.lewagon.com/placeholder/users/arthur-littm" alt="user avatar">
+                </div>
+                <div class="message-card-info">
+                  <div class="card-title my-0">
+                    <b>arthur-littm</b>
+                  </div>
+                  <p class="card-text">
+                    Hey everyone 👋 We’ve just launched a new Le Contra UI Kit 🚀 👉 <a href="https://uikit.lecontra.com/">https://uikit.lecontra.com/</a>
+                  </p>
+                </div>
+            </div>
+  
+            <!-- Message 2 -->
+          <div class="message-card mt-3">
+          <div class="card-avatar" aria-role="user avatar">
+            <img src="https://kitt.lewagon.com/placeholder/users/cveneziani" alt="user avatar">
+          </div>
+          <div class="message-card-info">
+            <div class="card-title my-0">
+              <b>cveneziani</b>
+            </div>
+            <p class="card-text">
+              yay! 🤘
+            </p>
+          </div>
+        </div>
+  
+        <!-- Message 3 -->
+        <div class="message-card mt-3">
+          <div class="card-avatar" aria-role="user avatar">
+            <img src="https://kitt.lewagon.com/placeholder/users/pdunleav" alt="user avatar">
+          </div>
+          <div class="message-card-info">
+            <div class="card-title my-0">
+              <b>pdunleav</b>
+            </div>
+            <p class="card-text">
+              That looks great, why don't you add a .card like on dribbble with a cool hover effect? 😎
+            </p>
+          </div>
+        </div>
+  
+        <!-- Message 4 -->
+        <div class="message-card mt-3">
+          <div class="card-avatar" aria-role="user avatar">
+            <img src="https://kitt.lewagon.com/placeholder/users/barangerbenjamin" alt="user avatar">
+          </div>
+          <div class="message-card-info">
+            <div class="card-title my-0">
+              <b>barangerbenjamin</b>
+            </div>
+            <p class="card-text">
+              Does it work on Linux? 🤓
+            </p>
+          </div>
+        </div>
+  
+        <!-- Message 5 -->
+        <div class="message-card mt-3">
+          <div class="card-avatar" aria-role="user avatar">
+            <img src="https://kitt.lewagon.com/placeholder/users/papillard" alt="user avatar">
+          </div>
+          <div class="message-card-info">
+            <div class="card-title my-0">
+              <b>papillard</b>
+            </div>
+            <p class="card-text">
+              Hi designers! A little tutorial I’ve made (french only, 🇬🇧 version coming soon!!!) covering:
+              <br>
+              - UX data (GA, Hotjar) and how to use it to re-think your sitemap
+              <br>
+              - Advanced UX workflow (Sketch > Invision > Abstract)
+              <a href="https://kitt.lecontra.com/knowledge/tutorials/ux_advanced" target="_blank"> 👉 https://kitt.lecontra.com/knowledge/tutorials/ux_advanced</a>
+              <br>
+              Hope you’ll enjoy 📺 !
+            </p>
+          </div>
+        </div>
+  
+        <div class="chatbox">
+          <form action="post">
+            <div class="form-group">
+              <input type="text" class="form-control" id="chatbox-input" placeholder="Type your message....">
+            </div>
+          </form>
+        </div>
+  
+        </div>
+      </div>
+    </div>
+
+    <!-- Including Bootstrap JS (with its Popper.js / jQuery dependency) so that dynamic components work -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
