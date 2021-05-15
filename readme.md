@@ -10,7 +10,7 @@ In this project, I have created a simple clone of the Slack UI for desktop for f
 
 - [Slack-Clone](https://marcusal.github.io/Slack-Copycat-UI/)
 
-<img align="center" alt="Screenshot" height="400px" src="Screenshot 2021-05-14 at 08.49.02.png"/>
+<img align="center" alt="Screenshot" height="400px" src="Screenshot 2021-05-15 at 10.24.42.png"/>
 
 ## Authors
 
